@@ -1,16 +1,17 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+.a_tbdr {
+  border: 2px dashed purple;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+header {
+  height: 111px;
+  border: 2px dashed red;
+  background-color: #9933cc;
 }
-
-* {
-  box-sizing: border-box;
+main {
+  min-height: 480px;
+  background-color: #fff;
+  border: 2px dashed green;
+}
+footer {
+  height: 70px;
+  background-color: #0099cc;
 }
